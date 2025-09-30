@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+header {
+  background-color: #ffe4e1;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  color: #b56b87;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.romantic-message {
+  text-align: center;
+  font-style: italic;
+  color: #b56b87;
+  font-size: 1.2rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.music-player {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#music-button {
+  background-color: #ffc9d7;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  color: #5f4c5c;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#music-button:hover {
+  background-color: #f7b3c2;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffe4e1;
+  font-weight: bold;
+}
